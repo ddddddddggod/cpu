@@ -7,7 +7,8 @@ use ARM cortex m0 (Design Start)
   - **CPU** : Updated the design by replacing the `apb_master` and `pkt_ctrl` with **CPU firmware**, and substituting the `rf` with **SRAM**.
 - **No depth ctrl_CDC (without FIFO management)**
   : has three clock
--**DepthCtrl (fifo management)**
+  
+- **DepthCtrl (fifo management)**
   - **RX** : rx fifo만 fifo management한 거
   - **Fin** : rxfifo와 txfifo 둘다 fifo management함. cdc부분 모듈라이제이션 정리 추가.
  
