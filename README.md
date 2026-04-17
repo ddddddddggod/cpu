@@ -17,7 +17,7 @@ Therefore, it should be adjusted accordingly or verified through waveform analys
 - **No depth ctrl_CDC (without FIFO management)**
   : has three clock
       <p align="center">
-  <img src="nodepthctrl/clock2.png" width="200"></p>
+  <img src="nodepthctrl_cdc/clock3.png" width="200"></p>
   
 - **DepthCtrl (fifo management)**
   - **RX** : Implements FIFO management for the RX path only.
