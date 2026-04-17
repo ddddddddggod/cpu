@@ -4,7 +4,7 @@
 
 *) use ARM cortex m0 (Design Start)
 
-*)The pass/fail result of the write display in `tb_apb.v` depends on the configured frequency (speed) and FIFO depth. 
+*)The pass/fail result of the write operation display in `tb_apb.v` depends on the configured frequency (speed) and FIFO depth. 
 Therefore, it should be adjusted accordingly or verified through waveform analysis.
 
 - **No depth ctrl (without FIFO management)**  : Has two clocks  
