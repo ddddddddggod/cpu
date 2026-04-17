@@ -30,7 +30,7 @@ Therefore, it should be adjusted accordingly or verified through waveform analys
  Flip-flops  and multiplexers are used to align the timing.
  
 - **DepthCtrl (fifo management)**
-  - **RX** : Implements FIFO management for the RX path only.
-  - **Fin** : Implements FIFO management for both RX and TX paths, with additional CDC (Clock Domain Crossing) modularization.
+  - **RX** : Implements FIFO management for the **RX** path only.
+  - **Fin** : Implements FIFO management for both **RX** and **TX** paths, with additional modularization.
  
 
