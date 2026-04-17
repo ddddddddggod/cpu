@@ -31,6 +31,8 @@ Therefore, it should be adjusted accordingly or verified through waveform analys
  
 - **DepthCtrl (fifo management)**
   - **RX** : Implements FIFO management for the **RX** path only.
+    - The **RX FIFO** generates a write ***interrupt when it is filled up to its configured depth or when an init signal is asserted***, triggering data transfer to SRAM.
   - **Fin** : Implements FIFO management for both **RX** and **TX** paths, with additional modularization.
+    - The **TX FIFO** is ***pre-filled with data up to the configured depth when a read interrupt is received***. It is cleared when a start signal is asserted.
  
 
