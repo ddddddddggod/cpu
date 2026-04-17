@@ -24,7 +24,7 @@ Therefore, it should be adjusted accordingly or verified through waveform analys
   <img src="nodepthctrl_cdc/clock3.png" width="200"></p>
 
     <p align="center">
-    <img src="nodepthctrl_cdc/handshake.png" width="600">
+    <img src="nodepthctrl_cdc/handshake.png" width="700">
   </p>
  In APB, `PWRITE` `PENABLE` `PSEL` already form a **handshake** with `PREADY`, so no additional acknowledgment signal is required. 
  Flip-flops  and multiplexers are used to align the timing.
