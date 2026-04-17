@@ -7,8 +7,7 @@
 *)The pass/fail result of the write display in `tb_apb.v` depends on the configured frequency (speed) and FIFO depth. 
 Therefore, it should be adjusted accordingly or verified through waveform analysis.
 
-- **No depth ctrl (without FIFO management)**  
-  - Has two clocks  
+- **No depth ctrl (without FIFO management)**  : Has two clocks  
   <p align="center">
     <img src="nodepthctrl/clock2.png" width="200">
   </p>
